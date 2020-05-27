@@ -1,0 +1,275 @@
+body {
+    margin: 30px;
+}
+
+
+/* HEADER*/
+.bg {
+    background-color: #77A69D;  
+    Height: 88px;
+    text-align: center;
+}
+
+.vertical-center {
+    padding: 5% 0;
+    color: white;
+}
+
+.BITSY {
+    font-weight: 700;
+}
+
+/* Container-Rows-Columns*/
+.my-container {
+    display: flex;              
+    flex-direction: column;    
+    justify-content: center;    
+}
+
+.my-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 60px;
+}
+
+.my-col {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.why-col {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+
+
+}
+
+.your-col {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+    
+    
+}
+.leon-col {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+  }
+
+/* First Row*/
+.FORD {
+    font-size: 12px;
+    padding: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+      .gear {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: #FEB693;
+        font-size: 30px;
+}
+
+.car {
+    font-size: 30px;   
+}
+
+.header {
+    background-color: #77A69D;
+    border: none;
+    
+}
+/* Line Breaks*/
+      hr {
+        display: block;
+        height: 8px;
+        background: #707070;
+        border: 0;
+        margin: 1em 0;
+        padding: 0;
+    }
+
+    .the-row {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -30px;
+        height: 180px;
+    }
+
+    .slim-row {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100px;
+    }
+    .his-col {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100px;
+      }
+
+    .graph {
+        font-size: 70px;
+        justify-content: center;
+        align-content: center;
+        display: flex;
+        color: #9AE67E;
+        margin-left: 20px;
+    }
+
+    .herc {
+        font-size: 75px;
+        justify-content: center;
+        align-content: center;
+        display: block;
+        margin-left: 35px;
+        color: #FEB693;
+    }
+
+    .his-col.degrees.smoke {
+        margin-top: 200px;
+    }
+    .box-shadow--4dp {
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 65px;
+        background-color: #77A69D;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        display: flex;
+        overflow-x: visible;
+    }
+
+    .icon {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        min-width: 50px;
+        overflow: hidden;
+        white-space: nowrap;
+        font-family: sans-serif;
+    }
+
+    .house {
+        color: white;
+    }
+    .crazy {
+        color: #FEB693;
+        opacity: 50%;
+        font-size: 80px;  
+        margin-right: -30px;
+        margin-bottom: 10px;
+        margin-top: -30px;
+    }
+    .gear2 {
+        color: white;
+        margin-right: 0px;
+        margin-right: -30px;
+    }
+
+    .badge.badge-pill {
+        border-radius: 10rem
+    }
+
+    .btn {
+        font-family: 'Raleway', sans-serif;
+    }
+    .btn.btn-default {
+        margin-top: 0px;
+    }
+
+    .btn.leon {
+        border-radius: 10px;
+        font-weight: 700;
+        width: 70%;
+    }
+    .btn.deon {
+        border-radius: 10px;
+        font-weight: 700;
+        width: 70%;
+        margin-left: 20px;
+    }
+    .btn.gavin {
+    border-radius: 10px;
+        font-weight: 700;
+        width: 70%;
+        margin-left: -10px;
+}
+    .my-font {
+        font-weight: 700;
+    }
+    .your-font {
+        font-weight: 700;
+        height: 30px;
+    }
+
+    .button-3 {
+        background-color: #77A69D;
+        color: #FEB693;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    .degrees {
+        display: block;
+    }
+    .Climate {
+        margin-left: 40px;
+    }
+    .Bluewaves {
+        margin-left: 20px;
+    }
+    .sage {
+        margin-left: 45px
+
+}
+    .degrees.leon {
+        display: block;
+    }
+
+    .btn-block {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .lauren {
+        position: absolute;
+        margin-right: 30px;
+        margin-top: -8px;
+        top:-5px;
+        right: -8px;
+        padding: 3px 9px;
+        border: 2px solid white;
+        border-radius:100px;
+        background: -webkit-linear-gradient(top, #FF6969 0%,#ff0000 100%);
+        box-shadow: 0 1px 2px rgba(0,0,0,.5), 0 1px 4px rgba(0,0,0,.4), 0 0 1px rgba(0,0,0,.7) inset, 0 10px 0px rgba(255,255,255,.11) inset; 
+        -webkit-background-clip: padding-box;
+        font:bold 16px/20px "Helvetica Neue", sans-serif; 
+        color: white;
+        text-decoration: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0,.6);
+    }​
+
